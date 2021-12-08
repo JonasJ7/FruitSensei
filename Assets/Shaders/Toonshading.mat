@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - MainTex:
-        m_Texture: {fileID: 2800000, guid: a2a2ca54f549dcd48902e11ebe32237f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8a86df957cc786741b9d86079bce38ad, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Mask_R_Emission:
@@ -47,9 +47,9 @@ Material:
     - Rim_Power: 5
     - Toon_Ramp_Offset: 0.5
     - Toon_Ramp_Smoothness: 0
-    - Vector1_0c8c71842361409291cb4a419344c598: 13.12
-    - Vector1_1b3bdcf1d323429f948be67690e004da: 3.6
-    - Vector1_8c0fb457fa084c2a8d14ed4f9c2dc5ac: 0.51
+    - Vector1_0c8c71842361409291cb4a419344c598: 1.81
+    - Vector1_1b3bdcf1d323429f948be67690e004da: 2.67
+    - Vector1_8c0fb457fa084c2a8d14ed4f9c2dc5ac: 0.28
     m_Colors:
     - Toon_Ramp_Tint: {r: 0.49056596, g: 0.49056596, b: 0.49056596, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
