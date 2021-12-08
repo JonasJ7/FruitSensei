@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class Health : MonoBehaviour
@@ -39,7 +40,7 @@ public class Health : MonoBehaviour
     {
         if (hearts<=0)
         {
-            Debug.Log("restart game");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
