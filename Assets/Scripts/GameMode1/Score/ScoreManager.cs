@@ -11,6 +11,13 @@ public class ScoreManager : MonoBehaviour
 
     int score = 0;
     int highscore = 0;
+    public int scorePerSlice=10;
+
+    public int currentMultiplier;
+    public int multiplierTracker;
+    public int[] multiplierThresholds;
+    public Text multiText;
+
 
     private void Awake()
     {
@@ -19,20 +26,42 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentMultiplier = 1;
+
         highscore = PlayerPrefs.GetInt("highscore",0);
 
 
-        scoreText.text = score.ToString() + "";
+        scoreText.text = score.ToString();
         highscoreText.text = "BEST: " + highscore.ToString();
     }
 
     public void AddPoint()
     {
-        score += 10;
-        scoreText.text = score.ToString() + "";
+        if (currentMultiplier-1<multiplierThresholds.Length)
+        {
+            multiplierTracker++;
+
+            if (multiplierThresholds[currentMultiplier - 1] <= multiplierTracker)
+            {
+                multiplierTracker = 0;
+                currentMultiplier++;
+            }
+        }
+
+        multiText.text = "Multiplier: x" + currentMultiplier;
+        
+        score += scorePerSlice * currentMultiplier;
+        scoreText.text = score.ToString();
         if (highscore<score)
         {
             PlayerPrefs.SetInt("highscore", score);
         }
+    }
+
+    public void MissedObject()
+    {
+        currentMultiplier = 1;
+        multiplierTracker = 0;
+        multiText.text = "Multiplier: x" + currentMultiplier;
     }
 }

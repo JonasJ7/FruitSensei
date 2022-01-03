@@ -40,7 +40,7 @@ public class Health : MonoBehaviour
     {
         if (hearts<=0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

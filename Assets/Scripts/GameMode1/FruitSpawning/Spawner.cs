@@ -46,16 +46,7 @@ public class Spawner : MonoBehaviour
                 }
             }
         }
-        /*
-        foreach (GameObject obj in objs) {
-            obj.transform.position += new Vector3(speed, 0, 0) * Time.deltaTime;
 
-            if (obj.transform.localPosition.x < -1100) {
-                objs.Remove(obj);
-                Destroy(obj);
-            }
-        }
-                */
         UpdateTimer();
 
         if (timeholder > 0) {

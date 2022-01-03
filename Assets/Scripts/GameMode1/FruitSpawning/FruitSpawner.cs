@@ -12,7 +12,6 @@ public class FruitSpawner : MonoBehaviour
     Transform spawnPoint;
     public float rotateSpeed = 15f;
 
-
     public void Spawn(GameObject fruit) {
         float delay = Random.Range(minDelay, maxDelay);
         spawnIndex = Random.Range(0, spawnPoints.Length);
