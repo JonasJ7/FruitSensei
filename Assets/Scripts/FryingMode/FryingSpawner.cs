@@ -4,29 +4,34 @@ using UnityEngine;
 
 public class FryingSpawner : MonoBehaviour
 {
-    public Transform[] spawnPoints;
-    public float minDelay = .1f;
-    public float maxDelay = 1f;
+    public GameObject[] fruitPrefabs;
+    GameObject[] SpawnArray;
+    public GameObject[] rareObjects;
+    public Transform SpawnPoint;
+    public float time = .1f;
+    public float delay = 1f;
+    public float rarity;
 
-    int spawnIndex;
-    Transform spawnPoint;
-    public float rotateSpeed = 15f;
+    int SpawnIndex;
 
-
-    public void Spawn(GameObject fruit) {
-        float delay = Random.Range(minDelay, maxDelay);
-        spawnIndex = Random.Range(0, spawnPoints.Length);
-        spawnPoint = spawnPoints[spawnIndex];
-
-        GameObject spawnedFruit = Instantiate(fruit, spawnPoint.position, spawnPoint.rotation);
-        Destroy(spawnedFruit, 5f);
+    private void Start()
+    {
+        InvokeRepeating("Spawn", delay, time);
     }
 
-
-    void Update() {
-        /*foreach (Transform spawnPoint in spawnPoints)
+    public void Spawn()
+    {
+        if (Random.Range(0f, 1f) > rarity) 
         {
-            spawnPoint.transform.localEulerAngles = new Vector3(0, 0, Mathf.PingPong(Time.time * rotateSpeed, 80) - 45);
-        }*/
+            SpawnArray = fruitPrefabs;
+        }
+        else
+        {
+            SpawnArray = rareObjects;
+        }
+
+        SpawnIndex = Random.Range(0, SpawnArray.Length);
+        Instantiate(SpawnArray[SpawnIndex], SpawnPoint.position, SpawnPoint.rotation);
+
     }
 }
