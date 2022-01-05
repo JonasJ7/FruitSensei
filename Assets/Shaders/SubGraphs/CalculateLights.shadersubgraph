@@ -579,6 +579,12 @@
             "m_Id": "4c872ffa6caf4d4183acbe53c398140e"
         },
         {
+            "m_Id": "f9df40335da9487fbe0ed3dc5e2306d8"
+        },
+        {
+            "m_Id": "ec8a635ff09f4e4696fa7b157378834c"
+        },
+        {
             "m_Id": "b93493ac00074742a7a9c8bd673fbc13"
         },
         {
@@ -597,11 +603,30 @@
     },
     "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"1922cdee611e03542abc1b4e5fa7c803\",\n        \"type\": 3\n    }\n}",
     "m_PropertyGuids": [
-        "4dda193f-894f-4bc5-8495-9f090425f6ae"
+        "4dda193f-894f-4bc5-8495-9f090425f6ae",
+        "94abd133-8d6d-40a3-bc5f-a849f04bdc36",
+        "e5581d5b-1192-44fa-8527-00a97dd47bee"
     ],
     "m_PropertyIds": [
-        1536512596
+        1536512596,
+        -1312386650,
+        -188065457
     ]
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "ec8a635ff09f4e4696fa7b157378834c",
+    "m_Id": -188065457,
+    "m_DisplayName": "RimBrightness",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Vector1_f55a8d42384d485bba896ce88f634052",
+    "m_StageCapability": 3,
+    "m_Value": 2.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -661,6 +686,21 @@
         "z": 0.0,
         "w": 0.0
     },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "f9df40335da9487fbe0ed3dc5e2306d8",
+    "m_Id": -1312386650,
+    "m_DisplayName": "RimPower",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Vector1_3679c926dfe947a89ccf5b5a5585d9b2",
+    "m_StageCapability": 3,
+    "m_Value": 5.0,
+    "m_DefaultValue": 0.0,
     "m_Labels": []
 }
 
