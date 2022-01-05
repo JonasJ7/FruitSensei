@@ -27,6 +27,8 @@ public class Fruit : MonoBehaviour
 
             slicedFruits = Instantiate(slicedFruits, transform.position, rotation);
 
+            FindObjectOfType<AudioManager>().Play("Slice"); // play sound
+
             Rigidbody[] slicedFruit = slicedFruits.GetComponentsInChildren<Rigidbody>();
             foreach (Rigidbody srb in slicedFruit)
             {
