@@ -773,7 +773,6 @@
     "m_Value": 0.0,
     "m_SerializableColorKeys": [
         {
-<<<<<<< HEAD:Assets/Shaders/Shadergraph/ToonShading.shadergraph
             "x": 0.650943398475647,
             "y": 0.650943398475647,
             "z": 0.650943398475647,
@@ -784,18 +783,6 @@
             "y": 0.7641509771347046,
             "z": 0.7641509771347046,
             "w": 0.3470664620399475
-=======
-            "x": 0.6509804129600525,
-            "y": 0.6509804129600525,
-            "z": 0.6509804129600525,
-            "w": 0.0
-        },
-        {
-            "x": 0.8244636654853821,
-            "y": 0.8244636654853821,
-            "z": 0.8244636654853821,
-            "w": 0.3470054268836975
->>>>>>> 9585064f887b06b6eea8905e897dcdca6c11aed3:Assets/Shaders/ToonShading.shadergraph
         },
         {
             "x": 1.0,
@@ -1226,11 +1213,7 @@
             "x": 0.0,
             "y": 0.0,
             "z": 0.0,
-<<<<<<< HEAD:Assets/Shaders/Shadergraph/ToonShading.shadergraph
             "w": 0.27940794825553896
-=======
-            "w": 0.27899596095085146
->>>>>>> 9585064f887b06b6eea8905e897dcdca6c11aed3:Assets/Shaders/ToonShading.shadergraph
         },
         {
             "x": 1.0,
