@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
-    public Text scoreText;
-    public Text highscoreText;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI highscoreText;
+    public TextMeshProUGUI multiText;
+
 
     int score = 0;
     int highscore = 0;
@@ -16,7 +19,6 @@ public class ScoreManager : MonoBehaviour
     public int currentMultiplier;
     public int multiplierTracker;
     public int[] multiplierThresholds;
-    public Text multiText;
 
 
     private void Awake()
@@ -37,6 +39,7 @@ public class ScoreManager : MonoBehaviour
 
     public void AddPoint()
     {
+
         if (currentMultiplier-1<multiplierThresholds.Length)
         {
             multiplierTracker++;
@@ -48,7 +51,7 @@ public class ScoreManager : MonoBehaviour
             }
         }
 
-        multiText.text = "Multiplier: x" + currentMultiplier;
+        multiText.text = "x" + currentMultiplier;
         
         score += scorePerSlice * currentMultiplier;
         scoreText.text = score.ToString();

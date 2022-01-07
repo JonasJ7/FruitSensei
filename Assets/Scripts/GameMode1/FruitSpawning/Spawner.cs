@@ -11,13 +11,14 @@ public class Spawner : MonoBehaviour
     public float timeToSpawnFaster = 30, timeholder;
     private float currentTimeToSpawn;
     public GameObject scrollPanel;
-    public Health health;
+    private HealthBar health;
 
     void Start() {
         objs = new List<GameObject>();
         currentTimeToSpawn = timeToSpawn;
         SpawnObjects();
         timeholder = timeToSpawnFaster;
+        health = FindObjectOfType<HealthBar>();
     }
     public void SpawnObjects() {
         int index = Random.Range(0, objectsToSpawn.Count);
@@ -41,7 +42,7 @@ public class Spawner : MonoBehaviour
                     {
                         objs.RemoveAt(i-1);
                         Destroy(objs[i-1]);
-                        health.Damage(1);
+                        health.Damage(50); //lose health
                     }
                 }
             }
