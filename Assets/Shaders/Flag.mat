@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HealthBar
-  m_Shader: {fileID: -6465566751694194690, guid: 33e909f2546a1e942bc4edb28470e55e, type: 3}
+  m_Name: Flag
+  m_Shader: {fileID: -6465566751694194690, guid: da80bc8b91bac194988ab56180567fe2, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,16 +19,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_51fdb23440f249589f9afb666329e756_Texture_1:
-        m_Texture: {fileID: 2800000, guid: dffef66376be4fa480fb02b19edbe903, type: 3}
+    - Texture2D_1adfdffd305a4e389254ea8a5ca35f2b:
+        m_Texture: {fileID: 2800000, guid: 85075461612e9c044bad1deacde04a46, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_eddc91d1263245ce825462376d33d8ba_Texture_1:
-        m_Texture: {fileID: 2800000, guid: dffef66376be4fa480fb02b19edbe903, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Triplanar_447a956c97ba4b7fa216f5ef2d4c4694_Texture_1:
-        m_Texture: {fileID: 2800000, guid: dffef66376be4fa480fb02b19edbe903, type: 3}
+    - _Texture2DAsset_44cf78423359445d9cc0cb9ac1fa88ff_Out_0:
+        m_Texture: {fileID: 2800000, guid: a2a2ca54f549dcd48902e11ebe32237f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -43,6 +39,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
+    m_Floats:
+    - Boolean_5cf7d08c27c84afc804a60b87ec32139: 1
+    - Boolean_e6d59b731be9417b8514de2e42b19e1a: 1
+    - Vector1_0f109b5da5e24d2084f77d3b19475995: 0.27
+    - Vector1_4d4c5d2eeb3e48749d2b70d986cfa01b: 0.93
+    - Vector1_51cb09fc464143c29694bdc1822ff30d: 1
+    - Vector1_b60a01b9befb4a2882162e9380768a2b: 0.95
+    - Vector1_bfdddf6c03ca4ed29ad4ffee7926b70c: 5.1
+    - Vector1_dfcf1571578245ff878af7eeb12d8e8b: 0.17
     m_Colors: []
   m_BuildTextureStacks: []

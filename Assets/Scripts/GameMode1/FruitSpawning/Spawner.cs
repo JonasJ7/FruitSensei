@@ -7,6 +7,9 @@ public class Spawner : MonoBehaviour
 
     public List<GameObject> objectsToSpawn = new List<GameObject>();
     public List<GameObject> objs;
+
+    public GameObject[] rareObjectsToSpawn;
+
     public float timeToSpawn, speed;
     public float timeToSpawnFaster = 30, timeholder;
     private float currentTimeToSpawn;
