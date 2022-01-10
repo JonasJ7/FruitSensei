@@ -23,11 +23,23 @@ Material:
         m_Texture: {fileID: 2800000, guid: 8389d178ef81da643a52a42fe8bf4170, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - Texture2D_e5386f1e43894ac0aa12abdbc0469723:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CalculateLightingRamp_0530be0f2de848f1b0eacb165e5e6b61_Texture2D4e60d44e73e34fb296d1a0be5216febe_3706629710:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CalculateLightingRamp_2e0c017d3a3141c1a0655db61e3b84ff_Texture2D4e60d44e73e34fb296d1a0be5216febe_3706629710:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -61,6 +73,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a507195b66914b44bb295ce7dfe40112_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 3a41790cd9a38c94d81e3de4a17ab38f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:

@@ -326,12 +326,14 @@ MonoBehaviour:
   sounds:
   - name: Slice
     clip: {fileID: 8300000, guid: 65ac1364d0090e24ca110b9262dfdfb0, type: 3}
+    output: {fileID: 24300002, guid: d9d99560a554771499d2f3daeb1dffa2, type: 2}
     volume: 0.65
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: BackgroundMusicr
+  - name: BackgroundMusic
     clip: {fileID: 8300000, guid: 4842fdfa2bd744e4f80e0aaedb1edfe8, type: 3}
+    output: {fileID: 24300002, guid: d9d99560a554771499d2f3daeb1dffa2, type: 2}
     volume: 0.07
     pitch: 1
     loop: 1
@@ -3229,7 +3231,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 569590787}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: Resume
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5419,7 +5421,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 569590787}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: Resume
+        m_MethodName: LoadMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
