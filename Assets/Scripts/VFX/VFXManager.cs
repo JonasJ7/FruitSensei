@@ -30,4 +30,9 @@ public class VFXManager : MonoBehaviour
         effect.pSystem.Play();
     }
 
+    public void InstantiateObject()
+    {
+        //Instantiate(effects[index], transform.position, transform.rotation, Quaternion.identity);
+    }
+
 }
