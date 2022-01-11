@@ -25,7 +25,7 @@ public class FruitSpawner : MonoBehaviour
     void Update() {
         foreach (Transform spawnPoint in spawnPoints)
         {
-            spawnPoint.transform.localEulerAngles = new Vector3(0, 0, Mathf.PingPong(Time.time * rotateSpeed, 80) - 45);
+            spawnPoint.transform.localEulerAngles = new Vector3(0, 0, Mathf.PingPong(Time.time * rotateSpeed, 60) - 30);
         }
     }
 }
