@@ -331,7 +331,7 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: BackgroundMusic
+  - name: BackgroundMusicr
     clip: {fileID: 8300000, guid: 4842fdfa2bd744e4f80e0aaedb1edfe8, type: 3}
     output: {fileID: 24300002, guid: d9d99560a554771499d2f3daeb1dffa2, type: 2}
     volume: 0.07
@@ -3311,12 +3311,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectsToSpawn:
+  - {fileID: 8368087507135726726, guid: a1eaeccc15fc0ce418521b97d2afc342, type: 3}
   - {fileID: 8368087507135726726, guid: f4e85317c0bd6c74c9e2db1a11d67b03, type: 3}
   - {fileID: 36636739824361630, guid: 4da3ee9863eba9744aee540091852b3b, type: 3}
   - {fileID: 5029530922895169578, guid: 15ac79b253a40bd4292150de1c1e208b, type: 3}
   - {fileID: 1832371263306725276, guid: fd41cf8aba3036f4abc386f650659aa0, type: 3}
-  - {fileID: 8368087507135726726, guid: a1eaeccc15fc0ce418521b97d2afc342, type: 3}
-  - {fileID: 8368087507135726726, guid: 3a51f3b3d0b8068408adbb271d706888, type: 3}
   objs: []
   rareObjectsToSpawn: []
   timeToSpawn: 3
