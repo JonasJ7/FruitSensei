@@ -325,7 +325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Slice
-    clip: {fileID: 8300000, guid: 65ac1364d0090e24ca110b9262dfdfb0, type: 3}
+    clip: {fileID: 8300000, guid: a0fa5808361aa0049961d8f49f621725, type: 3}
     output: {fileID: 24300002, guid: d9d99560a554771499d2f3daeb1dffa2, type: 2}
     volume: 0.65
     pitch: 1
@@ -4760,54 +4760,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465673943}
   m_CullTransparentMesh: 1
---- !u!1 &1548994117
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1548994119}
-  - component: {fileID: 1548994118}
-  m_Layer: 0
-  m_Name: VFXManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1548994118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548994117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1cedeaf8bb364b44af51e11ac583be5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  effects:
-  - name: FruitJuice
-    ParticleEffect: {fileID: 7463640480383055521, guid: 23337fb7352af8a469bb35a0e714d281, type: 3}
-    pSystem: {fileID: 0}
-  spawnPos: {x: 0, y: 0, z: 0}
---- !u!4 &1548994119
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548994117}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 195.76831, y: 1094.0616, z: -116.58269}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1713304909}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1551779655
 GameObject:
   m_ObjectHideFlags: 0
@@ -5482,7 +5434,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 135660541}
-  - {fileID: 1548994119}
   m_Father: {fileID: 145258033}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
