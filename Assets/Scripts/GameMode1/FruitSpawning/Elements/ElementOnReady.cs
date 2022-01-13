@@ -18,6 +18,7 @@ public class ElementOnReady : MonoBehaviour
             spawner.RemoveObjects(currentObj);
             currentKey = KeyCode.Minus;
             ScoreManager.instance.AddPoint();
+            FindObjectOfType<AudioManager>().Play("Throw"); // playing sound
         }
     }
 

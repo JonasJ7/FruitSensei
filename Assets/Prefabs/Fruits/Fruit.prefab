@@ -84,6 +84,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca9a41fe86233e46a7800d15897682a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  combo: {fileID: 8601464068324658560, guid: 640772f438d606a4d8cba9c275a3edd6, type: 3}
+  hit: 0
   slicedFruits: {fileID: 8741795986961199426, guid: 0f1e99d68460f934782f63a4443e31e8, type: 3}
   startForce: 15
   speedLoss: 1

@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Fruit : MonoBehaviour
 {
+    
+
+
     public GameObject slicedFruits;
 
     Rigidbody2D rb;
@@ -17,7 +21,10 @@ public class Fruit : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
+
         if (collision.tag == "Blade") {
+
+            FindObjectOfType<Combo>().AddTracker();
 
             ScoreManager.instance.AddPoint();
 

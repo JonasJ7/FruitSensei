@@ -338,6 +338,13 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: Throw
+    clip: {fileID: 8300000, guid: 6f9469df9d5258f4abac6f51805e327d, type: 3}
+    output: {fileID: 24300002, guid: d9d99560a554771499d2f3daeb1dffa2, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!1 &145258032
 GameObject:
   m_ObjectHideFlags: 0
@@ -2881,6 +2888,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 080a549d81a897f4abd8713518f90512, type: 3}
+--- !u!1 &972000867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 588014890310026402, guid: 8b6d816e67bb28847ac4ebf353f6330d, type: 3}
+  m_PrefabInstance: {fileID: 2003722661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &972000868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972000867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8874569abe1f74c9c95a43298d7fbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  combo3: {fileID: 2822565926629370971, guid: e3385bab34a60aa4d9134bdd48b7b8f5, type: 3}
+  combo6: {fileID: 0}
+  combo8: {fileID: 0}
+  combo10: {fileID: 0}
+  multiTracker: 0
+  mainCamera: {fileID: 330585545}
+  timer: 100
 --- !u!4 &1013977140 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07a628414caef1245804cfddff5a92d7, type: 3}
