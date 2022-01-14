@@ -345,6 +345,13 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: KnifeWoosh
+    clip: {fileID: 8300000, guid: e587f0ef90ffcd147bbcf92feb1e936b, type: 3}
+    output: {fileID: 24300002, guid: d9d99560a554771499d2f3daeb1dffa2, type: 2}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!1 &145258032
 GameObject:
   m_ObjectHideFlags: 0
@@ -3161,7 +3168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1021646969
 Animator:
   serializedVersion: 3
@@ -3344,7 +3351,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectsToSpawn:
-  - {fileID: 8368087507135726726, guid: 3a51f3b3d0b8068408adbb271d706888, type: 3}
   - {fileID: 8368087507135726726, guid: f4e85317c0bd6c74c9e2db1a11d67b03, type: 3}
   - {fileID: 36636739824361630, guid: 4da3ee9863eba9744aee540091852b3b, type: 3}
   - {fileID: 5029530922895169578, guid: 15ac79b253a40bd4292150de1c1e208b, type: 3}

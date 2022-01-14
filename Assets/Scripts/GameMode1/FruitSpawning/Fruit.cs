@@ -16,6 +16,8 @@ public class Fruit : MonoBehaviour
 
     public bool canBeSliced=true;
 
+    public GameObject juiceEffect;
+
     private void Start() {
         rb = GetComponent<Rigidbody2D>();
         rb.AddForce(transform.up * startForce, ForceMode2D.Impulse);
@@ -24,7 +26,9 @@ public class Fruit : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) {
 
-        if (collision.tag == "Blade" && canBeSliced) { 
+        if (collision.tag == "Blade" && canBeSliced) {
+
+            Instantiate(juiceEffect, transform.position, Quaternion.identity);
 
             FindObjectOfType<Combo>().AddTracker();
 
@@ -68,7 +72,7 @@ public class Fruit : MonoBehaviour
 
              Destroy(slicedFruits, 3f);
              Destroy(gameObject);*/
-           canBeSliced = false;
+            canBeSliced = false;
         }
     }
 }
