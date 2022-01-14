@@ -86,6 +86,7 @@ MonoBehaviour:
   startForce: 15
   speedLoss: 1
   canBeSliced: 1
+  juiceEffect: {fileID: 2077581410060940583, guid: 23337fb7352af8a469bb35a0e714d281, type: 3}
 --- !u!1001 &4000196704891933672
 PrefabInstance:
   m_ObjectHideFlags: 0

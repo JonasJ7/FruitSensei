@@ -41,6 +41,7 @@ public class Blade : MonoBehaviour
 
         if (isCutting)
         {
+            FindObjectOfType<AudioManager>().Play("KnifeWoosh"); // play sound
             UpdateCut();
         }
     }
