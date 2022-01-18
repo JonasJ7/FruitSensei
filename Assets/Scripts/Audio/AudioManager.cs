@@ -38,6 +38,7 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         Play("BackgroundMusic");
+        Play("openDoor");
     }
     public void Play(string name)
     {

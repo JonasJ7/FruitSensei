@@ -19,4 +19,8 @@ public class Begone : MonoBehaviour
     {
         FindObjectOfType<AudioManager>().Play("openDoor");
     }
+    public void ClickSound()
+    {
+        FindObjectOfType<AudioManager>().Play("click");
+    }
 }
