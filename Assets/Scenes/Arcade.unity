@@ -2913,7 +2913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   combo3: {fileID: 2822565926629370971, guid: e3385bab34a60aa4d9134bdd48b7b8f5, type: 3}
-  combo6: {fileID: 0}
+  combo6: {fileID: 2822565926629370971, guid: 4c23106b43de28e46bbf2e5306ac85b4, type: 3}
   combo8: {fileID: 0}
   combo10: {fileID: 0}
   multiTracker: 0
@@ -3168,7 +3168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1021646969
 Animator:
   serializedVersion: 3

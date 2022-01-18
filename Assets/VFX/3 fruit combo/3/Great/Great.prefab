@@ -1538,7 +1538,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: 4f001b31a4c3a094896d594ed06aeddd, type: 3}
+    - sprite: {fileID: 21300000, guid: 05c3e3073ef4c66488dad631d012aeae, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -4874,7 +4874,7 @@ GameObject:
   - component: {fileID: 3170037356851438270}
   - component: {fileID: 6828938450313514635}
   m_Layer: 0
-  m_Name: 3FruitCombo
+  m_Name: Great
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6428,7 +6428,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: e74ff0824a2b3c8428f84e32583e8684, type: 3}
+    - sprite: {fileID: 21300000, guid: acebe7cf91d6c4145ab932c0c75c5872, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
