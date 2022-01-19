@@ -39,13 +39,43 @@ public class Combo : MonoBehaviour
     {
         multiTracker++;
 
-        if (multiTracker == 1)
+        if (multiTracker == 3)
         {
             Debug.Log(isTiming + "Timing");
             isTiming = true;
             if (timer > 0)
             {
                 Instantiate(combo3, transform.position, Quaternion.identity);
+            }
+        }
+
+        if (multiTracker == 3)
+        {
+            Debug.Log(isTiming + "Timing");
+            isTiming = true;
+            if (timer > 0)
+            {
+                Instantiate(combo6, transform.position, Quaternion.identity);
+            }
+        }
+
+        if (multiTracker == 8)
+        {
+            Debug.Log(isTiming + "Timing");
+            isTiming = true;
+            if (timer > 0)
+            {
+                Instantiate(combo8, transform.position, Quaternion.identity);
+            }
+        }
+
+        if (multiTracker == 10)
+        {
+            Debug.Log(isTiming + "Timing");
+            isTiming = true;
+            if (timer > 0)
+            {
+                Instantiate(combo10, transform.position, Quaternion.identity);
             }
         }
 

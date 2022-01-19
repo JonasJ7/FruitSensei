@@ -49,7 +49,7 @@ MonoBehaviour:
   startForce: 15
   speedLoss: 1
   canBeSliced: 1
-  juiceEffect: {fileID: 2077581410060940583, guid: 23337fb7352af8a469bb35a0e714d281, type: 3}
+  juiceEffect: {fileID: 2077581410060940583, guid: 921a4a91c1e876b42899218d083867a1, type: 3}
 --- !u!58 &6020284206051862709
 CircleCollider2D:
   m_ObjectHideFlags: 0
