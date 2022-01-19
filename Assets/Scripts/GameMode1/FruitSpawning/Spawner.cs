@@ -27,8 +27,10 @@ public class Spawner : MonoBehaviour
         int index = Random.Range(0, objectsToSpawn.Count);
         if (objectsToSpawn.Count > 0) {
             GameObject obj = Instantiate(objectsToSpawn[index], new Vector3(scrollPanel.transform.position.x + 400, scrollPanel.transform.position.y, scrollPanel.transform.position.z), transform.rotation);
+            obj.transform.position = new Vector3(scrollPanel.transform.position.x + 400, scrollPanel.transform.position.y - 214, scrollPanel.transform.position.z);
             objs.Add(obj);
             obj.transform.SetParent(scrollPanel.transform, false);
+
         }
     }
     private void Update() {
