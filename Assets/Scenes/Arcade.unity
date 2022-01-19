@@ -226,7 +226,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82658919}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 7.644806, y: 9.291742, z: 9.237577}
@@ -2893,7 +2893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &943574234
 Transform:
   m_ObjectHideFlags: 0
@@ -3000,7 +3000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a8874569abe1f74c9c95a43298d7fbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  combo3: {fileID: 2822565926629370971, guid: e3385bab34a60aa4d9134bdd48b7b8f5, type: 3}
+  combo3: {fileID: 2822565926629370971, guid: beaa172e7ee59b941bbd405226cd3032, type: 3}
   combo6: {fileID: 0}
   combo8: {fileID: 0}
   combo10: {fileID: 0}
@@ -3256,7 +3256,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1021646969
 Animator:
   serializedVersion: 3
