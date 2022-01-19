@@ -67,6 +67,7 @@ public class Combo : MonoBehaviour
             isTiming = true;
             if (timer > 0)
             {
+                FindObjectOfType<AudioManager>().Play("Succulent");
                 Instantiate(combo8, transform.position, Quaternion.identity);
             }
         }
@@ -77,6 +78,7 @@ public class Combo : MonoBehaviour
             isTiming = true;
             if (timer > 0)
             {
+                FindObjectOfType<AudioManager>().Play("Succulent");
                 Instantiate(combo10, transform.position, Quaternion.identity);
             }
         }
