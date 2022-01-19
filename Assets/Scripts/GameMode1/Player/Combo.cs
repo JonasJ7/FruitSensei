@@ -56,6 +56,7 @@ public class Combo : MonoBehaviour
             isTiming = true;
             if (timer > 0)
             {
+                FindObjectOfType<AudioManager>().Play("Juicy");
                 Instantiate(combo6, transform.position, Quaternion.identity);
             }
         }
