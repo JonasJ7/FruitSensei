@@ -45,11 +45,12 @@ public class Combo : MonoBehaviour
             isTiming = true;
             if (timer > 0)
             {
+                FindObjectOfType<AudioManager>().Play("Great");
                 Instantiate(combo3, transform.position, Quaternion.identity);
             }
         }
 
-        if (multiTracker == 3)
+        if (multiTracker == 6)
         {
             Debug.Log(isTiming + "Timing");
             isTiming = true;
