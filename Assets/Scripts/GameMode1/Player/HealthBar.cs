@@ -8,6 +8,8 @@ public class HealthBar : MonoBehaviour
     private Image healthBar;
     public float maxHealth, health = 100f;
     public float lerpSpeed;
+    public ScreenSlice screenSlice;
+    public GameObject hud;
 
 
 
@@ -24,6 +26,13 @@ public class HealthBar : MonoBehaviour
         lerpSpeed = 3f * Time.deltaTime;
 
         HealthBarFiller();
+
+        if (health <= 0)
+        {
+            hud.SetActive(false);
+            screenSlice.GameOverSliceCall();
+
+        }
        // ColorChanger();
     }
     void HealthBarFiller()
