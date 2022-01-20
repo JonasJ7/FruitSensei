@@ -9,6 +9,7 @@ TagManager:
   - Element
   - DeathScreen
   - ScoreCanvas
+  - transformRemover
   layers:
   - Default
   - TransparentFX
